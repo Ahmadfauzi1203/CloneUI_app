@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_ui/Pages/StartedPage.dart';
+// import 'package:instagram_ui/Pages/StartedPage.dart';
+import 'package:instagram_ui/Pages/ProfilePage.dart';
 // import 'package:instagram_ui/Pages/HomePage.dart';
 
 void main() {
@@ -19,6 +20,6 @@ class InstagramUI extends StatelessWidget {
                 backgroundColor: Colors.white,
                 foregroundColor: Colors.black,
                 elevation: 0)),
-        home: const StartedPage());
+        home: const ProfilePage());
   }
 }
