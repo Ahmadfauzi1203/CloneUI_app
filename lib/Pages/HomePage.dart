@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_ui/Pages/Story.dart';
-import 'package:instagram_ui/Pages/Post.dart';
+import 'package:instagram_ui/Widget/Story.dart';
+import 'package:instagram_ui/Widget/Post.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
